@@ -1,0 +1,25 @@
+.multiple {
+    max-width: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: Cambria, sans-serif;
+    font-size: 1em;
+    }
+    .multiple__input {
+        padding: 5px;
+        
+    }
+    .multiple__text {
+        display: block;
+    }
+
+    .submit_button{
+        background-color: #a0a4ee;
+        color:rgb(255, 255, 255);
+    }
+    .submit_button:hover{
+        border-color: #0e0e1a;
+    }
+    
