@@ -26,7 +26,6 @@ export default function Multiple() {
         alert(
             'Name: '+ formData.name +', Description: '+formData.description+', Category: '+formData.category+', Quantity: '+formData.quantity+', Price: '+formData.price
         );
-        
     };
 
     return(
