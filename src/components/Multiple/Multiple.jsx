@@ -30,56 +30,61 @@ export default function Multiple() {
 
     return(
         <form onSubmit={handleSubmit} className="multiple">
-            <label className="multiple_text" htmlFor="name">
-                Name:
-            </label>
+            
             <input 
             type="text" 
             id="name" 
             className="multiple_input" 
             name="name" 
             value={formData.name} 
-            onChange={handleChange} />
+            placeholder="Name"
+            onChange={handleChange} 
+            required/>
+            <br/><br/>
             
-            <label className="multiple_text" htmlFor="description">
-                Description:
-            </label>
             <input 
             type="text" 
             id="description" 
             className="multiple_input" 
-            name="description" value={formData.description} 
-            onChange={handleChange} />
+            name="description" 
+            value={formData.description} 
+            placeholder="Description"
+            onChange={handleChange} 
+            required/>
+            <br/><br/>
 
-            <label className="multiple_text" htmlFor="category">
-                Category:
-            </label>
             <input 
             type="text" 
             id="category" 
             className="multiple_input" 
-            name="category" value={formData.category} 
-            onChange={handleChange} /> 
+            name="category" 
+            value={formData.category} 
+            placeholder="Category"
+            onChange={handleChange} 
+            required/> 
+            <br/><br/>
 
-            <label className="multiple_text" htmlFor="quantity">
-                Quantity:
-            </label>
             <input 
             type="number" 
             id="Quantity" 
             className="multiple_input" 
-            name="quantity" value={formData.quantity} 
-            onChange={handleChange} />
+            name="quantity" 
+            value={formData.quantity} 
+            placeholder="Quantity"
+            onChange={handleChange} 
+            required/>
+            <br/><br/>
 
-            <label className="multiple_text" htmlFor="price">
-                Price:
-            </label>
             <input 
             type="number" 
             id="Price" 
             className="multiple_input" 
-            name="price" value={formData.price} 
-            onChange={handleChange} />
+            name="price" 
+            value={formData.price} 
+            placeholder="Price"
+            onChange={handleChange} 
+            required/>
+            <br/><br/>
 
             <button className="submit_button" type="submit">
                 Submit
